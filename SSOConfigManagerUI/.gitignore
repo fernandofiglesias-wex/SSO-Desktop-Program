@@ -1,5 +1,5 @@
 # Allow releases folder for distribution
-!releases/
+!publish/
 
 # .NET Core / .NET 5+ build outputs
 obj/
@@ -160,11 +160,11 @@ DocProject/Help/*.hhp
 DocProject/Help/Html2
 DocProject/Help/html
 
-# Click-Once directory
-publish/
-
 # Publish Web Output
 *.[Pp]ublish.xml
+*/single-file
+*/standalone
+*/ultra-optimized
 *.azurePubxml
 # Note: Comment the next line if you want to checkin your web deploy settings,
 # but database connection strings (with potential passwords) will be unencrypted
