@@ -1,5 +1,11 @@
 # Allow releases folder for distribution
-!publish/
+!releases/
+
+# Ignore optimization build folders
+publish/optimized/
+publish/ultra-optimized/
+publish/single-file/
+publish/standalone/
 
 # .NET Core / .NET 5+ build outputs
 obj/
@@ -8,6 +14,7 @@ out/
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
+[Rr]eleases/
 x64/
 x86/
 [Ww][Ii][Nn]32/
@@ -162,9 +169,6 @@ DocProject/Help/html
 
 # Publish Web Output
 *.[Pp]ublish.xml
-*/single-file
-*/standalone
-*/ultra-optimized
 *.azurePubxml
 # Note: Comment the next line if you want to checkin your web deploy settings,
 # but database connection strings (with potential passwords) will be unencrypted

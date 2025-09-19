@@ -32,9 +32,9 @@ A Windows Forms application for managing Microsoft Enterprise Single Sign-On (SS
 
 ## 📥 Installation
 
-### Download and Run (Easiest)
-1. Download the latest `SSOConfigManagerUI.exe` from the releases
-2. Place the executable in your desired location
+### Download and Run the Self-Contained Version (Easiest)
+1. Download the `standalone.zip` from the `publish` folder
+2. Extract the files in your desired location
 3. Run as an administrator (recommended for SSO operations)
 
 ### Build from Source
