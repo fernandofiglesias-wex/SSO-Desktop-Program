@@ -74,7 +74,7 @@ namespace SSOConfigManagerUI
             var lblPropertyValue = new Label();
             lblPropertyValue.Text = "Property Value:";
             lblPropertyValue.Location = new System.Drawing.Point(20, 275);
-            lblPropertyValue.Size = new System.Drawing.Size(80, 23);
+            lblPropertyValue.Size = new System.Drawing.Size(80, 30);
             this.Controls.Add(lblPropertyValue);
 
             // TextBoxes
